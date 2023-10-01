@@ -2,6 +2,6 @@ package com.trendyol.shipment;
 
 public enum ShipmentTerm {
 
-    BUYER_PAYS,
-    SELLER_PAYS;
+  BUYER_PAYS,
+  SELLER_PAYS;
 }
