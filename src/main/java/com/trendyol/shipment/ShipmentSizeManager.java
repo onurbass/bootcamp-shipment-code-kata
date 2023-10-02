@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class ShipmentSizeManager implements ShipmentSizeCalculator {
-  private static final int THRESHOLD = 3;
-  private static final int MAX_SIZE = 5;
+  private final int THRESHOLD = 3;
+  private final int MAX_SIZE = 5;
 
   @Override
   public ShipmentSize calculateShipmentSize(List<Product> products) {
